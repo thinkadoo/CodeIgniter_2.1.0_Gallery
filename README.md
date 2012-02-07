@@ -4,6 +4,8 @@
 
 This project is a mobile gallery lite in progress…
 
+See here: http://cl.ly/DzBd
+
 Planned Features:
 
 • A sign-up process
