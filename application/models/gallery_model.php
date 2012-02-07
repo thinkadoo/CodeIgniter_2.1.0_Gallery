@@ -45,10 +45,10 @@ class Gallery_model extends CI_Model {
 		$images = array();
 		
 		foreach ($files as $file) {
-
             if($file == ".DS_Store")
                continue;
-
+            if($file == ".gitignore")
+               continue;
 			$images []= array (
 				'url' => $this->gallery_path_url . $file,
 				'thumb_url' => $this->gallery_path_url . 'thumbs/' . $file
