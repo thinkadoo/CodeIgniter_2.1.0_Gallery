@@ -33,7 +33,7 @@
 			foreach($images as $image):	?>
 
 			<li class="thumbnail">
-				<a href="<?php echo $image['url']; ?>">
+				<a href="index.php/detail/loadimage/<?php echo $image['name']; ?>" >
 					<img src="<?php echo $image['thumb_url']; ?>" />
 				</a>				
 			</li>

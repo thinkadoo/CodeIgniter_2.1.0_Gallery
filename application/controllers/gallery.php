@@ -11,7 +11,7 @@ class Gallery extends CI_Controller {
 		}
 		
 		$data['images'] = $this->Gallery_model->get_images();
-		
+
 		$this->load->view('gallery', $data);
 		
 	}

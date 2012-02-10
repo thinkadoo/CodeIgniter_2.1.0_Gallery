@@ -50,6 +50,7 @@ class Gallery_model extends CI_Model {
             if($file == ".gitignore")
                continue;
 			$images []= array (
+                'name' => $file,
 				'url' => $this->gallery_path_url . $file,
 				'thumb_url' => $this->gallery_path_url . 'thumbs/' . $file
 			);
